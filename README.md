@@ -1,41 +1,36 @@
 # Understanding LLMs
 
-A practical, engineer-first repository by **Shantanu Sharma**.
+Engineer-first learning notes by **Shantanu Sharma**.
 
-I am an AI/ML Engineer building production-grade LLM systems, RAG pipelines, and scalable backend infrastructure. This repo is where I document how LLMs work from fundamentals to advanced production topics.
+I am an AI/ML Engineer building production-grade LLM systems, RAG pipelines, and scalable backend infrastructure. This repository tracks my path from LLM fundamentals to model training, evaluation, and safety.
 
 ## Why this repository exists
 
-Most LLM content is either too abstract or too shallow for engineering work. This repository is focused on:
+Most LLM resources are either too theoretical or too API-focused. This repository is built to bridge that gap with:
 
-- First-principles understanding
-- Practical implementation intuition
-- Production-oriented thinking for real AI systems
-
-## What you will find here
-
-- LLM fundamentals (tokens, embeddings, model basics)
-- Advanced topics (evaluation, safety, system design)
-- Notes and examples written for backend and AI engineers
+- first-principles understanding,
+- practical implementation intuition,
+- production-oriented thinking for real AI systems.
 
 ## Repository structure
 
 ```text
 understandingllms/
-|-- Foundation/
-|   `-- what-are-llms.md
-`-- public/
-	`-- foundations/
-		`-- how-llm-works.png
+|- Foundation/
+|  `- what-are-llms.md
+`- public/
+   `- foundations/
+      `- how-llm-works.png
 ```
 
-## Current learning path
+## What this repo will cover
 
-| Track | Topic | Status |
-| --- | --- | --- |
-| Foundation | What are LLMs? | In Progress |
-| Advanced | Evaluation of LLMs | Planned |
-| Advanced | AI Safety | Planned |
+- LLM architecture (tokenization, embeddings, transformer blocks)
+- Attention mechanisms and decoding strategies
+- Pretraining and fine-tuning workflows
+- Quantitative and qualitative evaluation
+- AI safety and mechanistic interpretability
+- Practical PyTorch-oriented implementation notes
 
 ## Connect
 
@@ -44,11 +39,7 @@ understandingllms/
 - LinkedIn: https://www.linkedin.com/in/mathoholic/
 - GitHub: https://github.com/mathoholic
 
-## Roadmap
+## Sources
 
-- Better tokenization and embeddings walkthroughs
-- Transformer internals and attention intuition
-- Inference and generation controls (temperature, top-k, top-p)
-- Evaluation frameworks and benchmarking strategy
-- RAG patterns for production use cases
-- Safety and guardrail design basics
+- Udemy course: A deep understanding of AI large language model mechanisms
+- Book: Build a Large Language Model (From Scratch) by Sebastian Raschka
